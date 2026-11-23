@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Explore trilhas, aluguel de bikes, manutenção especializada e experiências de mountain bike com a Trail Bikers.">
+    <meta name="theme-color" content="#181818">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Trail Bikers | Sua próxima jornada começa aqui</title>
+</head>
+<body>
+    <main class="conteudo">
+        <header class="topo">
+            <nav class="menu" aria-label="Navegação principal">
+                <div class="logo-container">
+                    <a href="#home" class="link-brand" aria-label="Trail Bikers - início">
+                        <img src="./assets/image/logo-Trail-Bikers.png" alt="Trail Bikers" class="img-logo">
+                    </a>
+                </div>
+
+                <button
+                    class="menu-toggle"
+                    type="button"
+                    aria-label="Abrir menu"
+                    aria-controls="nav-list"
+                    aria-expanded="false"
+                >
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                </button>
+
+                <ul class="nav-list" id="nav-list" aria-label="Links do site">
+                    <li class="nav-item"><a href="#home" class="nav-link">Home</a></li>
+                    <li class="nav-item"><a href="#sobre" class="nav-link">Sobre</a></li>
+                    <li class="nav-item"><a href="#servicos" class="nav-link">Serviços</a></li>
+                    <li class="nav-item"><a href="#assinar" class="nav-link">Assine Já</a></li>
+                </ul>
+            </nav>
+        </header>
+
+        <section id="home" class="hero-section" aria-labelledby="titulo-principal">
+            <div class="linear-container">
+                <div class="texto-hero-container">
+                    <p class="hat-hero">SUA PRÓXIMA JORNADA COMEÇA AQUI.</p>
+                    <h1 class="titulo-hero" id="titulo-principal">Domine as melhores trilhas. <br> Viva a verdadeira experiência do Mountain Bike.</h1>
+                    <p class="text-description-hero">
+                        Roteiros inesquecíveis, equipamentos premium e guias especializados para você
+                        desafiar seus limites com segurança. Encontre a sua próxima aventura com a Trail Bikers.
+                    </p>
+                    <div class="button-container">
+                        <a href="#servicos" class="btn-cta">Escolher Minha Trilha</a>
+                        <a href="#servicos" class="btn-secondary">Conhecer Nossos Serviços</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="sobre" class="sobre" aria-labelledby="titulo-sobre">
+            <div class="linear-sobre-container">
+                <div class="text-sobre-container">
+                    <p class="hat-sobre">NOSSA ESSÊNCIA</p>
+                    <h2 class="titulo-sobre" id="titulo-sobre">A paixão pelo barro <br> corre em nossas veias.</h2>
+                    <p class="text-sobre">
+                        A Trail Bikers nasceu da vontade de conectar pessoas à natureza
+                        através da adrenalina. Mais do que uma agência, somos uma comunidade de ciclistas
+                        apaixonados. Oferecemos infraestrutura completa, conhecimento técnico e respeito ao meio
+                        ambiente para que você se preocupe apenas em pedalar e curtir a paisagem.
+                    </p>
+                    <div class="button-sobre-container">
+                        <a href="#assinar" class="btn-cta-sobre">Junte-se à Nossa Comunidade</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="servicos" class="servicos" aria-labelledby="titulo-servicos">
+            <div class="text-servicos-container">
+                <p class="hat-servicos">A EXPERIÊNCIA COMPLETA</p>
+                <h2 class="titulo-servicos" id="titulo-servicos">Tudo o que você precisa para o pedal perfeito</h2>
+                <p class="descricao-servicos">
+                    Soluções completas para iniciantes e atletas de alta performance.
+                </p>
+            </div>
+
+            <div class="card-container" aria-label="Nossos serviços">
+                <article class="card-1" role="group" tabindex="0" aria-label="Trilhas Guiadas. Toque ou pressione Enter para ver os detalhes." aria-expanded="false">
+                    <div class="overlay">
+                        <h3 class="card-title">Trilhas Guiadas</h3>
+                        <p class="card-description">
+                            Descubra roteiros exclusivos na região com guias experientes.
+                            Opções para todos os níveis técnicos e de condicionamento físico.
+                        </p>
+                        <a href="#assinar" class="card-button">Agendar Trilha</a>
+                    </div>
+                </article>
+
+                <article class="card-2" role="group" tabindex="0" aria-label="Aluguel de Bikes. Toque ou pressione Enter para ver os detalhes." aria-expanded="false">
+                    <div class="overlay">
+                        <h3 class="card-title">Aluguel de Bikes</h3>
+                        <p class="card-description">
+                            Frota de mountain bikes premium, com revisões diárias e ajuste
+                            ergonômico. Prontas para encarar qualquer terreno de forma segura.
+                        </p>
+                        <a href="#assinar" class="card-button">Reservar Agora</a>
+                    </div>
+                </article>
+
+                <article class="card-3" role="group" tabindex="0" aria-label="Oficina Especializada. Toque ou pressione Enter para ver os detalhes." aria-expanded="false">
+                    <div class="overlay">
+                        <h3 class="card-title">Oficina Especializada</h3>
+                        <p class="card-description">
+                            Manutenção preventiva e corretiva com mecânicos certificados.
+                            Garantimos que a sua bicicleta nunca te deixe na mão no meio do caminho.
+                        </p>
+                        <a href="#assinar" class="card-button">Solicitar Orçamento</a>
+                    </div>
+                </article>
+
+                <article class="card-4" role="group" tabindex="0" aria-label="Clínicas de Pilotagem. Toque ou pressione Enter para ver os detalhes." aria-expanded="false">
+                    <div class="overlay">
+                        <h3 class="card-title">Clínicas de Pilotagem</h3>
+                        <p class="card-description">
+                            Aprimore sua técnica com instrutores profissionais. Ganhe
+                            confiança para superar obstáculos, saltos e descidas íngremes.
+                        </p>
+                        <a href="#assinar" class="card-button">Próximas Turmas</a>
+                    </div>
+                </article>
+            </div>
+        </section>
+
+        <section id="assinar" class="assinar" aria-labelledby="titulo-assinar">
+            <div class="linear-assinar-container">
+                <div class="text-assinar-container">
+                    <p class="hat-assinar">VAMOS PEDALAR?</p>
+                    <h2 class="titulo-assinar" id="titulo-assinar">Pronto para fazer parte da nossa comunidade?</h2>
+                    <div class="button-container">
+                        <a href="#servicos" class="btn-cta">Escolher Minha Trilha</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <footer class="rodape" aria-label="Rodapé">
+            <div class="rodape-container">
+                <div class="rodape-brand">
+                    <a href="#home" class="link-brand rodape-logo" aria-label="Trail Bikers - voltar ao início">
+                        <img src="./assets/image/logo-Trail-Bikers.png" alt="Trail Bikers" class="img-logo">
+                    </a>
+                    <p class="rodape-description">
+                        Mais do que pedalar: explore novos caminhos, supere limites e viva cada trilha
+                        com a comunidade Trail Bikers.
+                    </p>
+                </div>
+
+                <nav class="rodape-navigation" aria-label="Navegação do rodapé">
+                    <h2 class="rodape-heading">Explore</h2>
+                    <ul class="rodape-links">
+                        <li><a href="#home">Início</a></li>
+                        <li><a href="#sobre">Sobre nós</a></li>
+                        <li><a href="#servicos">Serviços</a></li>
+                        <li><a href="#assinar">Assine já</a></li>
+                    </ul>
+                </nav>
+
+                <div class="rodape-invite">
+                    <p class="rodape-eyebrow">SUA PRÓXIMA AVENTURA</p>
+                    <h2 class="rodape-heading">A trilha chama. Vamos nessa?</h2>
+                    <a class="rodape-button" href="#assinar">Começar a pedalar <span aria-hidden="true">↗</span></a>
+                </div>
+            </div>
+
+            <div class="rodape-bottom">
+                <p>© <span data-current-year>2026</span> Trail Bikers. Todos os direitos reservados.</p>
+                <a href="#home" class="rodape-backtop">Voltar ao topo <span aria-hidden="true">↑</span></a>
+            </div>
+        </footer>
+    </main>
+
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/gsap.min.js"></script>
+    <script defer src="https://cdn.jsdelivr.net/npm/gsap@3.15.0/dist/ScrollTrigger.min.js"></script>
+    <script defer src="./js/script.js"></script>
+</body>
+</html>
